@@ -11,6 +11,19 @@
   width: 100%;
 }
 
+.wave .evil-image {
+  height: 100%;
+  width: 640px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  background: currentColor url(/images/Evil_Ryu.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .wave svg {
   display: block;
   position: relative;
@@ -19,6 +32,16 @@
 
 .row:hover .avatar-phrases {
   opacity: 1;
+}
+
+.avatar {
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.avatar:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .avatar-phrases {

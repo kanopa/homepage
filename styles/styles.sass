@@ -8,6 +8,16 @@
     left: 0
     top: 0
     width: 100%
+    .evil-image
+        height: 100%
+        width: 640px
+        position: absolute
+        bottom: 0
+        left: 50%
+        transform: translate(-50%, 0)
+        background: currentColor url(/images/Evil_Ryu.png)
+        background-repeat: no-repeat
+        background-position: center
     svg
         display: block
         position: relative
@@ -17,6 +27,10 @@
     &:hover
         .avatar-phrases
             opacity: 1
+.avatar
+    transition: .3s ease
+    &:hover 
+        transform: scale(1.1)
 .avatar-phrases
     opacity: 0
     transition: .3s ease
