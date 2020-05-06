@@ -4,6 +4,7 @@ function Func() {
 
     var pic1 = document.getElementById("pic1");
     var pic2 = document.getElementById("pic2");
+
     if (x.style.display === "none") {
       x.style.display = "block";
       y.style.display = "none";
@@ -16,3 +17,8 @@ function Func() {
       pic2.style.display = "block";
     }
   }
+
+  AOS.init({
+    once: false,
+    duration: 500
+  });

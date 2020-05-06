@@ -25,11 +25,11 @@
 }
 
 .wave .evil-image {
-  background: currentColor url(/images/Evil_Ryu.png);
+  background: url(/images/Evil_Ryu.png);
 }
 
 .wave .kind-image {
-  background: currentColor url(/images/Ryu.png);
+  background: url(/images/Ryu.png);
 }
 
 .wave svg {
