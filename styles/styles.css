@@ -25,11 +25,11 @@
 }
 
 .wave .evil-image {
-  background: url(/images/Evil_Ryu.png);
+  background: url(/images/evil.png);
 }
 
 .wave .kind-image {
-  background: url(/images/Ryu.png);
+  background: url(/images/kind.png);
 }
 
 .wave svg {
