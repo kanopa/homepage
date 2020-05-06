@@ -91,36 +91,47 @@
   0% {
     content: 'k';
   }
+
   5% {
     content: 'kk';
   }
+
   10% {
     content: 'kkk';
   }
+
   15% {
     content: 'kkkk';
   }
+  
   20% {
     content: 'kkkkk';
   }
+
   25% {
     content: 'kkkkk!';
   }
+
   55% {
     content: 'kkkk!';
   }
+
   65% {
     content: 'kkk!';
   }
+
   70% {
     content: 'kk!';
   }
+
   75% {
     content: 'k!';
   }
+
   80% {
     content: '!';
   }
+
   100% {
     content: '';
   }
@@ -130,36 +141,47 @@
   0% {
     content: 'k';
   }
+
   5% {
     content: 'kk';
   }
+
   10% {
     content: 'kkk';
   }
+
   15% {
     content: 'kkkk';
   }
+
   20% {
     content: 'kkkkk';
   }
+
   25% {
     content: 'kkkkk!';
   }
+
   55% {
     content: 'kkkk!';
   }
+
   65% {
     content: 'kkk!';
   }
+
   70% {
     content: 'kk!';
   }
+
   75% {
     content: 'k!';
   }
+
   80% {
     content: '!';
   }
+  
   100% {
     content: '';
   }
