@@ -25,11 +25,11 @@
 }
 
 .wave .evil-image {
-  background: url(/images/evil.png);
+  background: url(../images/evil.png);
 }
 
 .wave .kind-image {
-  background: url(/images/kind.png);
+  background: url(../images/kind.png);
 }
 
 .wave svg {
@@ -38,24 +38,10 @@
   top: calc(7em - 1px);
 }
 
-.row:hover .avatar-phrases {
-  opacity: 1;
-}
-
-.avatar {
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
-}
-
-.avatar:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
-.avatar-phrases {
+.row .avatar-phrases {
   opacity: 0;
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
   position: absolute;
   z-index: 100;
   left: 0;
@@ -63,16 +49,30 @@
   padding: 10px 15px;
   font-size: 20px;
   font-weight: 700;
-  background: linear-gradient(70.78deg, #FAFAFA 0%, #f7f7f7 48.96%, #FAFAFA 100%);
+  background: linear-gradient(70.78deg, #fafafa 0%, #f7f7f7 48.96%, #fafafa 100%);
   border-radius: 5px;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
-.avatar-phrases p::after {
+.row .avatar-phrases p::after {
   content: "";
   -webkit-animation: text 5s linear infinite;
           animation: text 5s linear infinite;
+}
+
+.row:hover .avatar-phrases {
+  opacity: 1;
+}
+
+.row .avatar {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.row .avatar:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .grid > .row > [class*="thirteen wide"].column {
