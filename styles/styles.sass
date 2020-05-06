@@ -8,6 +8,7 @@
     left: 0
     top: 0
     width: 100%
+
     .generic-image
         cursor: pointer
         height: 100%
@@ -18,16 +19,20 @@
         transform: translate(-50%, 0)
         background-repeat: no-repeat
         background-position: center
+
     .evil-image
         background: url(../images/evil.png)
+
     .kind-image
         background: url(../images/kind.png)
+
     svg
         display: block
         position: relative
         top: calc(7em - 1px)
 
 .row
+
     .avatar-phrases
         opacity: 0
         transition: 0.3s ease
@@ -41,7 +46,9 @@
         background: linear-gradient(70.78deg, #fafafa 0%, #f7f7f7 48.96%, #fafafa 100%)
         border-radius: 5px
         box-shadow: 0 0 15px rgba(0,0,0,0.2)
+
         p
+            
             &::after
                 content: ""
                 animation: text 5s linear infinite
