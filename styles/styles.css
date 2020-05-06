@@ -1,0 +1,167 @@
+.wave {
+  color: #9b1818;
+  padding-top: calc((100% - 1127px) / 2);
+  height: 7em;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  background: currentColor;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.wave .generic-image {
+  cursor: pointer;
+  height: 100%;
+  width: 640px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wave .evil-image {
+  background: url(/images/Evil_Ryu.png);
+}
+
+.wave .kind-image {
+  background: url(/images/Ryu.png);
+}
+
+.wave svg {
+  display: block;
+  position: relative;
+  top: calc(7em - 1px);
+}
+
+.row:hover .avatar-phrases {
+  opacity: 1;
+}
+
+.avatar {
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.avatar:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.avatar-phrases {
+  opacity: 0;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  top: -33px;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: 700;
+  background: linear-gradient(70.78deg, #FAFAFA 0%, #f7f7f7 48.96%, #FAFAFA 100%);
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.avatar-phrases p::after {
+  content: "";
+  -webkit-animation: text 5s linear infinite;
+          animation: text 5s linear infinite;
+}
+
+.grid > .row > [class*="thirteen wide"].column {
+  width: 80.25% !important;
+}
+
+#showSec {
+  display: none;
+}
+
+#pic2 {
+  display: none;
+}
+
+@-webkit-keyframes text {
+  0% {
+    content: 'k';
+  }
+  5% {
+    content: 'kk';
+  }
+  10% {
+    content: 'kkk';
+  }
+  15% {
+    content: 'kkkk';
+  }
+  20% {
+    content: 'kkkkk';
+  }
+  25% {
+    content: 'kkkkk!';
+  }
+  55% {
+    content: 'kkkk!';
+  }
+  65% {
+    content: 'kkk!';
+  }
+  70% {
+    content: 'kk!';
+  }
+  75% {
+    content: 'k!';
+  }
+  80% {
+    content: '!';
+  }
+  100% {
+    content: '';
+  }
+}
+
+@keyframes text {
+  0% {
+    content: 'k';
+  }
+  5% {
+    content: 'kk';
+  }
+  10% {
+    content: 'kkk';
+  }
+  15% {
+    content: 'kkkk';
+  }
+  20% {
+    content: 'kkkkk';
+  }
+  25% {
+    content: 'kkkkk!';
+  }
+  55% {
+    content: 'kkkk!';
+  }
+  65% {
+    content: 'kkk!';
+  }
+  70% {
+    content: 'kk!';
+  }
+  75% {
+    content: 'k!';
+  }
+  80% {
+    content: '!';
+  }
+  100% {
+    content: '';
+  }
+}
+/*# sourceMappingURL=styles.css.map */
